@@ -1,0 +1,65 @@
+.products-admin {
+  margin-left: 260px;
+  padding-top: 50px;
+}
+
+.product-filters {
+  input {
+    width: 100%;
+  }
+}
+
+:host ::ng-deep {
+  .p-progress-spinner {
+    display: block;
+  }
+
+  .card {
+    max-width: 95%;
+  }
+
+  .formgrid.grid {
+    margin-top: 0;
+  }
+
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -.5rem;
+    margin-left: -.5rem;
+    margin-top: -.5rem;
+  }
+
+  .field-checkbox,.field-radiobutton {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .field {
+    margin-bottom: 1rem;
+  }
+
+  .p-radiobutton {
+    display: inline-flex;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    vertical-align: bottom;
+    position: relative;
+    width: 22px;
+    height: 22px;
+  }
+
+  .p-radiobutton-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .p-checkbox .p-checkbox-box.p-highlight .p-checkbox-icon.pi-check:before {
+    top: 8px;
+    left: 2px;
+  }
+
+}
