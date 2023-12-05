@@ -1,3 +1,23 @@
+# Lancement du projet
+
+Pour lancer le backend lancez les commandes suivantes :
+
+``` shell
+cd back/
+npm i && node index.js
+```
+
+Les requêtes à la DB MySQL (host sur https://www.db4free.net/phpMyAdmin/) peuvent mettre quelques secondes à s'exécuter.
+
+Pour lancer le frontend lancez les commandes suivantes sur un nouveau terminal :
+
+``` shell
+cd front/
+npm i && ng serve
+```
+
+Puis rendez-vous sur http://localhost:4200
+
 # Front-end
 
 Créer un module angular "product" avec 2 composants (basés sur primeng): 
